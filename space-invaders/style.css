@@ -1,0 +1,59 @@
+
+/**********************************
+CANVAS
+***********************************/
+#myCanvas{
+  background: url("http://res.cloudinary.com/dw2liwt16/image/upload/v1508385546/Summer_Pignic_Space_Background_l1covo.png");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/**********************************
+BODY
+***********************************/
+
+body{
+  text-align: center;
+  background-color: #131313;
+}
+
+h1{
+  color: white;
+  padding: 3%;
+  padding-bottom: 1%;
+}
+
+p{
+  color: gray;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 96%;
+  height: 85px;
+  background-color: black;
+  font-size: 1em;
+  text-align: center;
+  color: #ccc;
+  padding: 2%;
+
+}
+
+.social-icon{
+ width: 35px;
+ height: 35px;
+ margin: 0px 5px;
+ color: gray;
+}
+
+.social-icon:hover{
+  opacity: 0.7;
+}
