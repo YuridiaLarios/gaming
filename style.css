@@ -25,26 +25,6 @@ p {
   color: #41a076;
 }
 
-a[href$=".pdf"] {
-  background: url(../img/pdf.png) right center no-repeat;
-  padding-right: 50px;
-}
-
-a[href$=".html"] {
-  background: url(../img/browser.png) right center no-repeat;
-  padding-right: 50px;
-}
-
-a[href$=".htm"] {
-  background: url(../img/browser.png) right center no-repeat;
-  padding-right: 50px;
-}
-
-a {
-  background: url(../img/intmark.png) right center no-repeat;
-  padding-right: 50px;
-}
-
 .full-width-div {
   width: 100%;
 }
@@ -87,6 +67,47 @@ NAVIGATION
 
 .active {
   background-color: #4caf50;
+}
+
+
+/**************************
+PROJECTS PAGE
+**************************/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-container {
+  text-align: center;
+  display: flex;
+  background-color: #a5af9c;
+  padding: 15px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container a,
+.project-container2 a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }
 
 
@@ -192,7 +213,6 @@ a.social-links {
   ul {
     padding: 0;
     list-style-type: none;
-    a
   }
 
   .hobbies-list li {
@@ -230,57 +250,6 @@ a.social-links {
     text-align: center;
     margin-left: 0%;
   }
-}
-
-/**************************
-PROJECTS PAGE
-**************************/
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-}
-
-@media screen and (max-width: 1000px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.project-container {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #52af50;
-  padding: 15px;
-  color: white;
-}
-
-.project-container2 {
-  text-align: center;
-  display: flex;
-  background-color: #a5af9c;
-  padding: 15px;
-  color: white;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-container a,
-.project-container2 a {
-  color: white;
-  text-decoration: none;
-  text-align: center;
 }
 
 
