@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 /**************************
+GENERAL
+**************************/
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+}
+
+h2,
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  word-spacing: 4px;
+  line-height: 30px;
+}
+
+
+/**************************
 HEADER
 **************************/
 h1.header-name {
@@ -32,26 +54,11 @@ h1.header-name {
   text-align: center;
 }
 
+
+
 /**************************
-GENERAL
+PROJECTS PAGE
 **************************/
-body {
-  margin: 0;
-  padding: 0;
-  /* background-color: red; */
-}
-
-h2,
-h3 {
-  font-family: 'Source Code Pro', monospace;
-  text-align: center;
-}
-
-p {
-  font-family: 'Source Code Pro', monospace;
-  word-spacing: 4px;
-  line-height: 30px;
-}
 
 .games-container {
   width: 100%;
@@ -63,21 +70,21 @@ p {
 }
 
 .inner-games-container {
-  width: 80%;
+  width: 85%;
   /* background-color: green; */
   margin: 0 auto;
   padding-top: 5%;
 }
 
+.stay-tuned {
+  margin-bottom: 100px;
+}
 
-/**************************
-PROJECTS PAGE
-**************************/
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
 }
 
 .project-container {
