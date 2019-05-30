@@ -53,15 +53,11 @@ p {
   line-height: 30px;
 }
 
-.full-width-div {
-  width: 100%;
-}
-
 .games-container {
   width: 100%;
-  min-height: 500px;
+  min-height: 700px;
   margin: 0 auto;
-  margin-top: -20px;
+  margin-top: -10px;
   /* background-color: pink; */
   text-align: center;
 }
@@ -70,7 +66,7 @@ p {
   width: 80%;
   /* background-color: green; */
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 
@@ -85,20 +81,26 @@ PROJECTS PAGE
 }
 
 .project-container {
-  text-align: center;
   display: flex;
-  background-color: #a5af9c;
-  padding: 15px;
-  color: white;
+  background-color: black;
+  padding: 0px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.project-container:hover {
+  opacity: 0.80;
 }
 
 .project-container a {
   color: white;
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.game-img {
+  width: 100%;
 }
 
 
