@@ -38,7 +38,7 @@ GENERAL
 body {
   margin: 0;
   padding: 0;
-  background-color: red;
+  /* background-color: red; */
 }
 
 h2,
@@ -61,14 +61,16 @@ p {
   width: 100%;
   min-height: 500px;
   margin: 0 auto;
-  background-color: pink;
+  margin-top: -20px;
+  /* background-color: pink; */
   text-align: center;
 }
 
 .inner-games-container {
   width: 80%;
-  background-color: green;
+  /* background-color: green; */
   margin: 0 auto;
+  padding-top: 10%;
 }
 
 
