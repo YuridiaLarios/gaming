@@ -62,9 +62,10 @@ PROJECTS PAGE
 
 .games-container {
   width: 100%;
-  min-height: 700px;
+  min-height: 800px;
   margin: 0 auto;
   margin-top: -10px;
+  margin-bottom: 100px;
   /* background-color: pink; */
   text-align: center;
 }
