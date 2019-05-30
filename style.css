@@ -91,6 +91,13 @@ PROJECTS PAGE
 
 .project-container:hover {
   opacity: 0.80;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: scale(1.05);
+  -ms-transform: rotate(10deg);
+  /* IE 9 */
+  -webkit-transform: rotate(10deg);
+  /* Safari 3-8 */
+  transform: rotate(10deg);
 }
 
 .project-container a {
